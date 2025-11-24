@@ -43,10 +43,7 @@ A modern League of Legends statistics tracker built with Next.js and the Riot Ga
 1. Enter a summoner name and tag (e.g., "Hide on bush#KR1")
 2. View ranked stats, favorite champions, and match history
 3. Explore detailed match information with all 10 players
-
-## 📸 Screenshots
-
-[Add your app screenshots here]
+4. It only works for EUW player !!
 
 ## 🔮 Future Improvements
 
