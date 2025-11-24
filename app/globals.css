@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: #0a0e27;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+body, p, span, a, button {
+  font-family: var(--font-body);
+}
