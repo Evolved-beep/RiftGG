@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RiftGG - League of Legends Stats Tracker
 
-## Getting Started
+A modern League of Legends statistics tracker built with Next.js and the Riot Games API. Search for any summoner and view their ranked stats, mastered champions, and detailed match history.
 
-First, run the development server:
+## 🎯 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🔍 **Summoner Search** - Search by name and tag (Riot ID)
+- 📊 **Ranked Statistics** - Solo/Duo and Flex with rank, LP, and winrate
+- 🏆 **Top Champions** - 5 most mastered champions
+- 📜 **Match History** - Last 5 matches with all 10 players, KDA, items, CS
+- 📱 **Responsive Design** - Mobile, tablet, and desktop friendly
+- 🎨 **Modern UI** - OP.GG-inspired interface with Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **API**: Riot Games API
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1. Clone the repository
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Create a `.env.local` file and add your Riot API key
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. Run the development server
 
-## Deploy on Vercel
+5. Open [http://localhost:3000](http://localhost:3000)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🔑 Getting a Riot Games API Key
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Go to [Riot Developer Portal](https://developer.riotgames.com/)
+2. Sign in with your Riot account
+3. Generate a Development key (valid for 24h) or Production key
+
+## 🎮 Usage
+
+1. Enter a summoner name and tag (e.g., "Hide on bush#KR1")
+2. View ranked stats, favorite champions, and match history
+3. Explore detailed match information with all 10 players
+
+## 📸 Screenshots
+
+[Add your app screenshots here]
+
+## 🔮 Future Improvements
+
+- [ ] Caching system to reduce API calls
+- [ ] Dedicated champions page with tier list
+- [ ] Leaderboard for top players
+- [ ] Summoner comparison feature
+- [ ] Progress tracking with graphs
+
+## 📝 Limitations
+
+- Development API key limited to 20 requests/second and 100 requests/2 minutes
+- Match history limited to 5 matches to optimize API calls
+
+## 📄 License
+
+This project is for educational/portfolio purposes. League of Legends and all associated elements are trademarks of Riot Games, Inc.
+
+---
+
