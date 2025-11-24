@@ -1,4 +1,4 @@
-import { getAccountByRiotId, getChampionMastery, getFullMatchHistory, getRankedByPuuid, getSummonerByPuuid } from '@/app/api/summoner/route';
+import { getAccountByRiotId, getChampionMastery, getFullMatchHistory, getRankedByPuuid, getSummonerByPuuid } from '@/lib/riotApi';
 import MatchHistoryList from '@/components/summoner/match-history-list';
 import SummonerCard from '@/components/summoner/summoner-card';
 import SummonerHeader from '@/components/summoner/summoner-header';
